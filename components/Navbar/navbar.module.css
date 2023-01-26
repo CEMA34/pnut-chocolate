@@ -1,0 +1,39 @@
+.color{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5em 1em;
+}
+
+.container__inner{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+}
+
+.container__inner__tag{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container__inner__shop{
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #DB4F70;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}

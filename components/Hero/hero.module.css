@@ -1,0 +1,89 @@
+.color {
+    background-color: black;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 500px;
+}
+
+.container__h1 {
+    font-size: 60px;
+    font-weight: 700;
+    width: 775px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.container__p {
+    font-size: 24px;
+    font-weight: 500;
+    width: 775px;
+    color: white;
+    margin-bottom: 6em;
+}
+
+.container__img {
+    width: 623px;
+    height: 217px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.contentContainerColor {
+    background-image: linear-gradient(#FE2D2D, #E84747);
+}
+
+.contentContainer {
+    height: 500px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1em;
+    position: relative;
+}
+
+.contentContainer__cracks1,
+.contentContainer__cracks2,
+.contentContainer__cracks3,
+.contentContainer__cracks4,
+.contentContainer__cracks5 {
+    position: absolute;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 250px;
+}
+
+.contentContainer__cracks1 {
+    top: 100px;
+    left: -100px;
+}
+
+.contentContainer__cracks2{
+    top: 250px;
+    left: 200px;
+}
+
+.contentContainer__cracks3{
+    top: 150px;
+    left: 500px;
+}
+
+.contentContainer__cracks4{
+    top: 100px;
+    left: 1000px;
+}
+
+.contentContainer__cracks5{
+    top: 300px;
+    left: 800px;
+}
